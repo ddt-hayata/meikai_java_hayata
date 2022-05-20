@@ -1,3 +1,7 @@
+/*
+ * 名前の姓と名とを個別にキーボードに読み込んで、
+ * 挨拶を行うプログラムを作成せよ。
+ */
 package ensyu_2;
 
 import java.util.Scanner;

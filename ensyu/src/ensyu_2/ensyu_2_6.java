@@ -1,3 +1,6 @@
+/*
+ * 三角形の底辺と高さを読み込んで、その面積を表示するプログラムを作成せよ。
+ */
 package ensyu_2;
 
 import java.util.Scanner;

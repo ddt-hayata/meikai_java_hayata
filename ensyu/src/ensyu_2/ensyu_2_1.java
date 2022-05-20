@@ -1,3 +1,6 @@
+/*
+ * List2-6の2⃣の箇所を、小数部のもつ実数値をxとyに代入するように変更して、その結果を考察せよ。
+ */
 package ensyu_2;
 
 public class ensyu_2_1 {

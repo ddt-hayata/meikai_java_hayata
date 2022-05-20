@@ -1,3 +1,6 @@
+/*
+ * 二つの実数値を読み込み、その和と平均を求めて表示するプログラムを作成せよ。
+ */
 package ensyu_2;
 
 import java.util.Scanner;

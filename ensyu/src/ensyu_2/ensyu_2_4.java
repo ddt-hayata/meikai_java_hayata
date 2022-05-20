@@ -1,3 +1,7 @@
+/*
+ * キーボードから読み込んだ整数値に10を加えた値と
+ * 10を減じた値を出力するプログラムを作成せよ。
+ */
 package ensyu_2;
 
 import java.util.Scanner;

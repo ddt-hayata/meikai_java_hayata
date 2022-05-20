@@ -1,3 +1,6 @@
+/*
+ * キーボードから読み込んだ整数値をそのまま反復して表示するプログラムを作成せよ。
+ */
 package ensyu_2;
 
 import java.util.Scanner;

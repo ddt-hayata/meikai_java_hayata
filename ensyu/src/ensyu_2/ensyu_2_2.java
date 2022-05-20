@@ -1,3 +1,6 @@
+/*
+ * 三つのint型変数に値を代入し、合計と平均を求めるプログラムを作成せよ。
+ */
 package ensyu_2;
 
 public class ensyu_2_2 {
