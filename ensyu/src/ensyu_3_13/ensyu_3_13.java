@@ -1,3 +1,7 @@
+/*
+ * キーボードから読み込んだ三つの整数値の中央値を求めて表示するプログラムを作成せよ。
+ * ※たとえば2,3,1の中央値は2で、1,2,1の中央値は1で、3,3,3の中央値は3である。
+ */
 package ensyu_3_13;
 
 import java.util.Scanner;
@@ -51,9 +55,9 @@ public class ensyu_3_13 {
 			// コンソールに出力
 			System.out.print("中央値は" + thirdNumber + "です。");
 		
-		} else {
+		} else if (secondNumber == firstNumber && firstNumber == thirdNumber) {
 			// コンソールに出力
-			System.out.print("中央値がありません。");
+			System.out.print("中央値は" + firstNumber + "です。");
 		
 		}
 		
