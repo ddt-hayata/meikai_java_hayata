@@ -1,3 +1,6 @@
+/*
+ * List3-5の最後のelseを、else if (n == 0)に変更したらどうなるか検討せよ。
+ */
 package ensyu_3_3;
 
 import java.util.Scanner;
