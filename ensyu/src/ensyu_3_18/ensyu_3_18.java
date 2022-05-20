@@ -1,3 +1,7 @@
+/*
+ * 月を1～12の整数値として読み込んで、
+ * それに対応する季節を表示するプログラムを作成せよ。
+ */
 package ensyu_3_18;
 
 import java.util.Scanner;
