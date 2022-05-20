@@ -1,3 +1,7 @@
+/*
+ * 二つの整数値を読み込んで、
+ * それらの値の差を表示するプログラムを作成せよ。
+ */
 package ensyu_3_10;
 
 import java.util.Scanner;
