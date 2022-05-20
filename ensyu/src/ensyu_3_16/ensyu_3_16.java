@@ -1,3 +1,7 @@
+/*
+ * 三つの整数値を読み込んで昇順（小さい順）に
+ * ソートするプログラムを作成せよ。
+ */
 package ensyu_3_16;
 
 import java.util.Scanner;
