@@ -1,3 +1,6 @@
+/*
+ * 整数値を読み込んで、その絶対値を求めて表示するプログラムを作成せよ。
+ */
 package ensyu_3_1;
 
 import java.util.Scanner;
