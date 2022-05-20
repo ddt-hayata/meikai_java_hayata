@@ -1,3 +1,7 @@
+/*
+ * 二つの整数値を読み込んで降順（大きい順）に
+ * ソートするプログラムを作成せよ。
+ */
 package ensyu_3_15;
 
 import java.util.Scanner;
