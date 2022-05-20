@@ -1,3 +1,7 @@
+/*
+ * 2桁の整数値（10～99）を当てさせる
+ * 《数当てゲーム》を作成せよ。
+ */
 package ensyu_4_2;
 
 import java.util.Random;
