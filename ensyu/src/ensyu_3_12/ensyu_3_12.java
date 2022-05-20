@@ -1,3 +1,7 @@
+/*
+ * キーボードから読み込んだ三つの整数値の
+ * 最小値を求めて表示するプログラムを作成せよ。
+ */
 package ensyu_3_12;
 
 import java.util.Scanner;
