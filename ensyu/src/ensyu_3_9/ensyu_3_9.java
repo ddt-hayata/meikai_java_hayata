@@ -1,3 +1,7 @@
+/*
+ * 二つの時数値を読み込んで、
+ * 大きいほうの値を表示するプログラムを作成せよ。
+ */
 package ensyu_3_9;
 
 import java.util.Scanner;
