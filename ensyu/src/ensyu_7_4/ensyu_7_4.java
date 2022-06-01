@@ -6,8 +6,14 @@ package ensyu_7_4;
 import java.util.Scanner;
 
 public class ensyu_7_4 {
-	
-	// メソッドの作成
+	/*
+	 * 関数名：sumUp
+	 * 説明：1からnまでの全整数の和を求めて返却するメソッド
+	 * パラメータ：入力された整数値(number)
+	 * 返り値：全整数の和(sum)
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static int sumUp(int n) {
 		// 合計用の変数
 		int sum = n;
