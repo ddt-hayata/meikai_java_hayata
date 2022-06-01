@@ -12,7 +12,14 @@ public class ensyu_7_9 {
 	// Scannerクラスのインスタンス化
 	static Scanner scanner = new Scanner(System.in);
 	
-	// メソッドの作成
+	/*
+	 * 関数名：readPlusInt
+	 * 説明：キーボードから正の整数値を読み込んでその値を返却するメソッド
+	 * パラメータ：なし
+	 * 返り値：入力された整数値(number)
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static int readPlusInt() {
 		// 変数の宣言
 		int number = 0;
