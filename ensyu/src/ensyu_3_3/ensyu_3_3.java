@@ -27,7 +27,7 @@ public class ensyu_3_3 {
 			System.out.println("その値は負です。");
 		
 		// コンソールに出力
-		} else if (number == 0) {
+		} else {
 			System.out.println("その値は０です。");
 		
 		}
