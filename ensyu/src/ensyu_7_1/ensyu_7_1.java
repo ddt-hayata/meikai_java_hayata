@@ -7,8 +7,15 @@ package ensyu_7_1;
 import java.util.Scanner;
 
 public class ensyu_7_1 {
-	
-	// メソッドの作成
+	/*
+	 * 関数名：sign0f
+	 * 説明：受け取ったint型引数の値nが負の数であれば-1を返却し、
+	 *       0であれば0を返却し、正であれば1を返却するメソッド
+	 * パラメータ：入力された整数値(number)
+	 * 返り値：入力値をもとに生成された値n(-1 or 0 or 1)
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static int sign0f(int n) {
 		// 負の数の場合
 		if (n < 0) {
@@ -30,7 +37,6 @@ public class ensyu_7_1 {
 			return n;
 		}
 	}
-
 	public static void main(String[] args) {
 		// Scannerクラスのインスタンス化
 		Scanner scanner = new Scanner(System.in);
