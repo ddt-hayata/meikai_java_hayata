@@ -38,16 +38,17 @@ public class ensyu_3_14 {
 			min = secondNumber;      // 変数に代入
 			max = firstNumber;       // 変数に代入
 		}
-
-		// コンソールに出力
-		System.out.println("整数a:" + firstNumber);
-		
-		// コンソールに出力
-		System.out.println("整数b:" + secondNumber);
 		
 		if (min == max) {
+			
 			// コンソールに出力
 			System.out.println("二つの値は同じです。");
+		} else {
+			// 出力
+			System.out.println("小さい方の値は " + min + " です。");
+			
+			// 出力
+			System.out.println("大きい方の値は " + max + " です。");
 		}
 		
 	}
