@@ -8,8 +8,14 @@ package ensyu_7_6;
 import java.util.Scanner;
 
 public class ensyu_7_6 {
-	
-	// 季節を表示するメソッド
+	/*
+	 * 関数名：printSeason
+	 * 説明：引数monthで指定された月の季節を表示するメソッド
+	 * パラメータ：入力された整数値(month)
+	 * 返り値：なし
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static void printSeason(int month) {
 		// 入力値をもとに季節を表示
 		if (3 <= month && month <= 5) {
