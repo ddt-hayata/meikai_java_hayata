@@ -11,7 +11,14 @@ public class ensyu_7_10 {
 	// Scannerクラスのインスタンス化
 	static Scanner scanner = new Scanner(System.in);
 	
-	// メソッドの作成
+	/*
+	 * 関数名：confirmRetry
+	 * 説明：正解の場合、問題を続けるか否かを返すメソッド
+	 * パラメータ：putStarsメソッドから受け取った文字列 '*' 及び入力された整数値(number)
+	 * 返り値：入力値 1 (cont)
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static boolean confirmRetry() {
 		// 変数の宣言
 		int cont ;
