@@ -4,8 +4,14 @@
 package ensyu_7_5;
 
 public class ensyu_7_5 {
-	
-	// こんにちはと改行分の表示
+	/*
+	 * 関数名：hello
+	 * 説明：『こんにちは。』と表示して改行するメソッド
+	 * パラメータ：なし
+	 * 返り値：なし
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static void hello() {
 		// 出力
 		System.out.println("こんにちは。");
