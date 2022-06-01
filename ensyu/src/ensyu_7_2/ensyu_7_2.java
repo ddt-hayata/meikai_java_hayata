@@ -7,8 +7,14 @@ package ensyu_7_2;
 import java.util.Scanner;
 
 public class ensyu_7_2 {
-	
-	// メソッドの作成
+	/*
+	 * 関数名：min
+	 * 説明：三つのint型引数a, b, cの最小値を求めるメソッド
+	 * パラメータ：入力された整数値(firstNumber, secondNumber, thirdNumber)
+	 * 返り値：最小値minの値
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static int min(int a, int b, int c) {
 		// 1つめの整数を代入
 		int min = a;
