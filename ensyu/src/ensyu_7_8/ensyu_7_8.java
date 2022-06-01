@@ -9,8 +9,14 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ensyu_7_8 {
-	
-	// 乱数を生成するメソッド
+	/*
+	 * 関数名：random
+	 * 説明：a以上b未満の乱数を生成して、その値を返却するメソッド
+	 * パラメータ：入力された整数値(firstNumber, secondNumber)
+	 * 返り値：生成された乱数
+	 * 作成者：早田
+	 * 作成日：2022/5/27
+	 */
 	static int random(int a, int b) {
 		// Randomクラスのインスタンス化
 		Random random = new Random();
