@@ -32,7 +32,7 @@ public class ensyu_8_1_main {
 		double weight = scanner.nextDouble();
 		// Humanクラスのインスタンス化
 		Human firstHuman = new Human(name, age, height, weight);
-		// クラスメソッドの呼び出し
+		// インスタンスメソッドの呼び出し
 		firstHuman.humanInfo();
 	}
 
