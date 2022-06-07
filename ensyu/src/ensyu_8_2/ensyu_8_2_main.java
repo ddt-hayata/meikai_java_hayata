@@ -57,7 +57,7 @@ public class ensyu_8_2_main {
 			System.out.print("給油しますか【0…No / 1…Yes】： ");
 			// 1が入力されたら
 			if (scanner.nextInt() == 1) {
-				// クラスメソッドの呼び出し
+				// インスタンスメソッドの呼び出し
 				fuel = myCar.refuel();
 			}
 			// 出力
@@ -81,7 +81,7 @@ public class ensyu_8_2_main {
 				System.out.println("燃料が足りません！");
 			}
 		}
-		// クラスメソッドの呼び出し
+		// インスタンスメソッドの呼び出し
 		myCar.putFuelConsumption(dx, dy, fuel);
 	}
 }
