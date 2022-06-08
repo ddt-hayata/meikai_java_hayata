@@ -27,33 +27,24 @@ public class ensyu_4_3 {
 		int secondNumber = scanner.nextInt();
 		
 		if (firstNumber < secondNumber) {
-			do {
-				
+			for (int i = firstNumber; i <= secondNumber; i++) {
 				// コンソールに出力
-				System.out.println(firstNumber);
-				
-				// 変数に加数
-				firstNumber++;
-			
-				// ループ条件
-			} while (firstNumber != secondNumber + 1);
-			
-		} else if (firstNumber > secondNumber) {
-			do {
-				
+				System.out.println(i);
+			}
+		} else {
+			for (int j = secondNumber; j <= firstNumber; j++) {
 				// コンソールに出力
-				System.out.println(secondNumber);
-				
-				// 変数に加数
-				secondNumber++;
-				
-				// ループ条件
-			} while (secondNumber != firstNumber + 1);	
+				System.out.println(j);
+			}
 		}
-		
-		// コンソールに出力
-		System.out.print("全ての数字が表示されました。");
-		
+		// 入力値が異なる場合表示
+		if (firstNumber != secondNumber) {
+			// コンソールに出力
+			System.out.print("全ての数字が表示されました。");
+		} else {
+			// コンソールに出力
+			System.out.print("値が等しいです。");
+		}
 	}
 
 }
