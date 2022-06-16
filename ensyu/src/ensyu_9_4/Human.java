@@ -1,6 +1,6 @@
 package ensyu_9_4;
 
-class Human {
+ public class Human {
 	// 名前
 	private String name;
 	// 年齢
