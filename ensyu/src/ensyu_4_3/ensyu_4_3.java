@@ -10,33 +10,40 @@ import java.util.Scanner;
 public class ensyu_4_3 {
 
 	public static void main(String[] args) {
-		
+
 		// Scannerクラスのインスタンスを作成し、引数で標準入力System.inを指定
 		Scanner scanner = new Scanner(System.in);
-		
+
 		// コンソールに出力
 		System.out.print("整数Aを入力してください：");
-		
+
 		// 変数に代入
 		int firstNumber = scanner.nextInt();
-		
+
 		// コンソールに出力
 		System.out.print("整数Bを入力してください：");
-		
+
 		// 変数に代入
 		int secondNumber = scanner.nextInt();
-		
-		if (firstNumber < secondNumber) {
-			for (int i = firstNumber; i <= secondNumber; i++) {
-				// コンソールに出力
-				System.out.println(i);
-			}
-		} else {
-			for (int j = secondNumber; j <= firstNumber; j++) {
-				// コンソールに出力
-				System.out.println(j);
-			}
+
+		// 仮でmaxとminに代入
+		int max = firstNumber;
+		int min = secondNumber;
+		// 大小を確認し、正しくなければ入れ替える
+		if (max < min) {
+			// 変数に代入
+			int n = max;
+			// 変数に代入
+			max = min;
+			// 変数に代入
+			min = n;
 		}
+		// 出力のループ文
+		for (int i = min; i <= max; i++) {
+			// コンソールに出力
+			System.out.println(i);
+		}
+
 		// 入力値が異なる場合表示
 		if (firstNumber != secondNumber) {
 			// コンソールに出力
