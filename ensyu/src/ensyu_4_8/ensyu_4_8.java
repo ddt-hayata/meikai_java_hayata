@@ -26,11 +26,11 @@ public class ensyu_4_8 {
 			// 変数に代入
 			number = scanner.nextInt();
 			
-		} while (number < 0);
+		} while (number < 1);
 		
 		int i = 0;
 		
-		while (number > 0) {
+		while (number >= 1) {
 			
 			number /= 10;
 			
