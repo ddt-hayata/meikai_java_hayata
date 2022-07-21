@@ -18,20 +18,14 @@ public class ensyu_4_10 {
 
 		// 変数に代入
 		int number = scanner.nextInt();
-
+		if (number >= 1) {
 		// ループ条件
-		for (int i = 0; i < number; i++)
-
-			// コンソールに出力
-			System.out.print('*');
-
-			if (number < 1) {
-
+			for (int i = 0; i < number; i++) {
 				// コンソールに出力
-				System.out.print("");
-
+				System.out.print('*');
 			}
-
+		// コンソールに出力
+			System.out.println();
+		}
 	}
-
 }
