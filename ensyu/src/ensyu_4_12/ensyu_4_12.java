@@ -13,13 +13,13 @@ public class ensyu_4_12 {
 		Scanner scanner = new Scanner(System.in);
 
 		// コンソールに出力
-		System.out.println("カウントダウンします。");
+		System.out.println("カウントアップします。");
 
 		// 変数に代入
 		int number = scanner.nextInt();
 
 		// ループ条件
-		for (int i = 0, j = number ; i <= number; i++, j--)
+		for (int i = 0; i <= number; i++)
 
 			// コンソールに出力
 			System.out.println(i);
