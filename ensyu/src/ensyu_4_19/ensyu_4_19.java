@@ -28,14 +28,14 @@ public class ensyu_4_19 {
 				month = scanner.nextInt();
 				
 				// 出力条件
-				if (month <= 0 || month > 12) {
+				if (month <= 0 || month >= 13) {
 					
-				// コンソールに出力
-				System.out.print("入力値に誤りがあります。\n再度入力してください。：");
+					// コンソールに出力
+					System.out.print("入力値に誤りがあります。\n再度入力してください。：");
 				}
 				
 				// ループ条件
-			} while (month <= 0 || month > 12);
+			} while (month <= 0 || month >= 13);
 			
 			if (month >= 3 && month <= 5) {
 				
