@@ -12,10 +12,10 @@ public class ensyu_4_18 {
 		// インスタンス化
 		Scanner scanner = new Scanner(System.in);
 
-		// コンソールに出力
+		// 出力
 		System.out.println("1からnまでの和を求めます。");
 
-		// コンソールに出力
+		// 出力
 		System.out.print("nの値：");
 
 		// 変数に代入
@@ -27,7 +27,7 @@ public class ensyu_4_18 {
 			// 二乗用の変数の宣言
 			int squareNumber = i * i;
 
-			// コンソールに出力
+			// 出力
 			System.out.println(i + "の2乗は" + squareNumber);
 
 			}
