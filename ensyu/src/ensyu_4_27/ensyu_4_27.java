@@ -32,7 +32,7 @@ public class ensyu_4_27 {
 		int count = 0;
 		
 		// コンソールに出力
-		System.out.println("入力できる回数は5回までです。\nいくつかな？");
+		System.out.println("入力できる回数は" + limit + "回までです。\nいくつかな？");
 		
 		for (int i = 1; i <= limit + 1; i++ ) {
 			
@@ -42,7 +42,7 @@ public class ensyu_4_27 {
 				// コンソールに出力
 				System.out.println("\n回数制限に達しました");
 				System.out.println("正解は" + randomNumber + "です。");
-				System.out.println("数当てゲームを終了します。");
+				break;
 				
 			}
 			
@@ -73,7 +73,7 @@ public class ensyu_4_27 {
 		}
 		
 		// コンソールに出力
-		System.out.println("\n数当てゲームを終了します。");
+		System.out.println("数当てゲームを終了します。");
 		
 	}
 
