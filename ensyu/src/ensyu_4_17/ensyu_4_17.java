@@ -25,6 +25,7 @@ public class ensyu_4_17 {
 		// ループ条件
 		for (int i = 1; i <= number; i++)
 
+			// 	入力された整数値が割り切れる場合
 			if (number % i == 0) {
 
 				// コンソールに出力
