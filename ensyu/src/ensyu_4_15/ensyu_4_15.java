@@ -17,8 +17,8 @@ public class ensyu_4_15 {
 		// コンソールに出力
 		System.out.println("身長と標準体重の対応表を表示します。");
 
-		int first_height;      // 変数の宣言
-		int second_height;     // 変数の宣言
+		int firstHeight;      // 変数の宣言
+		int secondHeight;     // 変数の宣言
 		int incremental;       // 変数の宣言
 
 		do {
@@ -26,20 +26,20 @@ public class ensyu_4_15 {
 			System.out.print("何㎝から：");
 
 			// 変数に代入
-			first_height = scanner.nextInt();
+			firstHeight = scanner.nextInt();
 
 			// ループ条件
-		} while (first_height <= 0);
+		} while (firstHeight <= 0);
 
 		do {
 			// コンソールに出力
 			System.out.print("何㎝まで：");
 
 			// 変数に代入
-			second_height = scanner.nextInt();
+			secondHeight = scanner.nextInt();
 
 			// ループ条件
-		} while (second_height <= 0);
+		} while (secondHeight <= 0);
 
 		do {
 			// コンソールに出力
@@ -58,7 +58,7 @@ public class ensyu_4_15 {
 		System.out.println("身長 " + "標準体重");
 
 		// ループ条件
-		for (height = first_height; height <= second_height; height += incremental) {
+		for (height = firstHeight; height <= secondHeight; height += incremental) {
 
 			// 標準体重を求める
 			weight = (height - 100) * 0.9;
