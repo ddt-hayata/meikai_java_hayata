@@ -23,7 +23,7 @@ public class ensyu_4_16 {
 		int i;
 
 		// ループ条件
-		for (i = 1; i < number; i++) {
+		for (i = 1; i <= number; i++) {
 
 			// コンソールに出力
 			System.out.print('*');
