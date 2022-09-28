@@ -14,7 +14,7 @@ public class ensyu_4_21_3 {
 		Scanner scanner = new Scanner(System.in);
 		
 		// コンソールに出力
-		System.out.println("左下直角の三角形を表示します。");
+		System.out.println("右上直角の三角形を表示します。");
 		
 		// コンソールに出力
 		System.out.print("段数は:");
