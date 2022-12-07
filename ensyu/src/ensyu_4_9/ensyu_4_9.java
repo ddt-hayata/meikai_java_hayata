@@ -10,6 +10,7 @@ public class ensyu_4_9 {
 
 	public static void main(String[] args) {
 
+
 		// Scannerクラスのインスタンスを作成し、引数で標準入力System.inを指定
 		Scanner scanner = new Scanner(System.in);
 
